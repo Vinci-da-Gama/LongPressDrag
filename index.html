@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>My_Reorder</title>
+	<!-- Bootstrap and jQuery -->
+	<link rel="stylesheet" type="text/css" href="_libH/bootstrap/dist/css/bootstrap.min.css">
+	<!-- ionic style -->
+	<link rel="stylesheet" href="_libH/ionic/release/css/ionic.min.css">
+	<link rel="stylesheet" href="_libH/ionic-material/ionic.material.min.css">
+	<script type="text/javascript" language = "javascript" src= "_libH/jquery/dist/jquery.min.js">
+	</script>
+
+
+</head>
+<body class='basicbody' ng-app="reorder.subject">
+
+	<ion-list sortable draggable=".card" sorted="onReorder($fromIndex, $toIndex)">
+		<ion-item ng-repeat="contact in contacts">
+			
+		</ion-item>
+	</ion-list>
+
+
+
+	<!-- ionic -->
+	<!-- <script type="text/javascript" language="javascript" src="_lib/ionic-material/ionic.material.min.js"></script> -->
+	<script type="text/javascript" language="javascript" src="_libH/ionic/release/js/ionic.min.js"></script>
+	<script type="text/javascript" language="javascript" src="_libH/ionic/release/js/ionic-angular.min.js"></script>
+
+
+	<!-- AngularJS -->
+	<script type="text/javascript" language = "javascript" src= "_libH/angular/angular.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="_libH/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+	<!-- Edit AngularJS -->
+	<script type="text/javascript" language="javascript" src="_app/app_modules.js"></script>
+	<script type='text/javascript' language='javascript' src='_app/router.js'></script>
+	<script type='text/javascript' language='javascript' src='_app/services.js'></script>
+	<script type='text/javascript' language='javascript' src='_app/controllers.js'></script>
+	<script type='text/javascript' language='javascript' src='_app/directives.js'></script>
+
+	<!-- Edit JS file -->
+	<script type='text/javascript' language='javascript' src='_js/reo.js'></script>
+
+	<!-- Edit CSS file -->
+	<link href="_css/reo.css" type="text/css" rel="stylesheet"/>
+
+
+</body>
+</html>

@@ -6,7 +6,7 @@ body.basicbody {
 .contact > table {
   width: 100%;
   table-layout: fixed;
-  height: : 40px;
+  height: 40px;
   border-collapse: collapse;
   background-color: white;
 }
@@ -14,7 +14,7 @@ body.basicbody {
   border: 1px solid black;
 }
 .contact > table td.image {
-  width: 40px;
+  width: 45px;
   background-color: lightgrey;
 }
 .contact > table td.details {
